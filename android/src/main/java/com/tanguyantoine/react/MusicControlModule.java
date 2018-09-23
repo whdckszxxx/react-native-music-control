@@ -136,7 +136,7 @@ public class MusicControlModule extends ReactContextBaseJavaModule implements Co
         nb.setStyle(
             new MediaStyle()
             .setMediaSession(session.getSessionToken())
-            .setShowActionsInCompactView(new int[]{0, 1, 2}))
+            .setShowActionsInCompactView(new int[]{0, 1, 2})
         );
 
         state = pb.build();
