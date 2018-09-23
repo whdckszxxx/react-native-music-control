@@ -7,7 +7,7 @@ import android.content.res.Resources;
 import android.os.IBinder;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
-import android.support.v7.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.view.KeyEvent;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableMap;
