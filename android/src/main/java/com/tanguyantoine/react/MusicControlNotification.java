@@ -81,6 +81,8 @@ public class MusicControlNotification {
         if(stop != null) builder.addAction(stop);
         if(next != null) builder.addAction(next);
         if(skipForward != null) builder.addAction(skipForward);
+        
+        builder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
         // Set whether notification can be closed based on closeNotification control (default PAUSED)
         if(module.notificationClose == MusicControlModule.NotificationClose.ALWAYS) {
