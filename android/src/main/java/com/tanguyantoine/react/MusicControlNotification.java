@@ -11,7 +11,7 @@ import android.support.v4.app.NotificationCompat;
 import android.view.KeyEvent;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableMap;
-import android.support.v7.app.NotificationCompat.MediaStyle;
+import android.support.v4.media.app.NotificationCompat.MediaStyle;
 
 import java.util.Map;
 
