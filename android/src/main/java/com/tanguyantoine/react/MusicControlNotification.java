@@ -83,6 +83,10 @@ public class MusicControlNotification {
         if(skipForward != null) builder.addAction(skipForward);
         
         builder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
+        // Show actions in compact view of notificationShowActionsInCompactView
+        builder.setShowWhen(false); // Hide time of notification
+        builder.setStyle(new MediaStyle()
+            .setShowActionsInCompactView(new int[]{0, 1, 2})); // Show first three via addAction() hooked actions
 
         // Set whether notification can be closed based on closeNotification control (default PAUSED)
         if(module.notificationClose == MusicControlModule.NotificationClose.ALWAYS) {
