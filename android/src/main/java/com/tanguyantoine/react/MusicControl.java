@@ -14,7 +14,7 @@ public class MusicControl implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext context) {
-        List<NativeModule> modules = new ArrayList<>();
+        List<NativeModule> modules = new ArrayList<NativeModule>();
         modules.add(new MusicControlModule(context));
         return modules;
     }
