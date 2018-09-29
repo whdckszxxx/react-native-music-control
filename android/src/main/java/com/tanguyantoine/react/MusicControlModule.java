@@ -77,7 +77,7 @@ public class MusicControlModule extends ReactContextBaseJavaModule implements Co
 
     @Override
     public Map<String, Object> getConstants() {
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<String, Object>();
         map.put("STATE_ERROR", PlaybackStateCompat.STATE_ERROR);
         map.put("STATE_STOPPED", PlaybackStateCompat.STATE_STOPPED);
         map.put("STATE_PLAYING", PlaybackStateCompat.STATE_PLAYING);
